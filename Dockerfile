@@ -1,4 +1,4 @@
-FROM fluent/fluentd:latest-onbuild
+FROM fluent/fluentd:latest
 MAINTAINER Viktor Petersson <petersson@gmail.com>
 WORKDIR /home/fluent
 ENV PATH /home/fluent/.gem/ruby/2.3.0/bin:$PATH
